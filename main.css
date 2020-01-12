@@ -1,10 +1,67 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/*Background*/
 body {
   background-image: url(assets/iroda2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: aliceblue;
+  
 }
-h1,h4{
+.profile-card{
   text-align: center;
+  padding-top: 25px;
 }
+img:hover {
+  transform: scale(0.5);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(5%);
+}
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #222;
+  filter: grayscale(5%);
+}
+.name {
+  padding-top: 20px;
+}
+h1,h2 {
+  text-align: center;
+  color: beige;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 15px;
+}
+p {
+  padding: 40 30
+}
+/*Contact links*/
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.social-icon {
+  color: dodgerblue;
+}
+.contact {
+  padding: 5% 10%;
+}
+
+
+
